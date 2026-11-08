@@ -1,0 +1,11 @@
+{
+  "name": "recruithub-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RecruitHub - Production-Ready Full-Stack Campus Placement Portal",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed"
+  }
+}

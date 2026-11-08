@@ -1,0 +1,28 @@
+{
+  "name": "recruithub-server",
+  "version": "1.0.0",
+  "description": "Backend API for CampusLink Placement Portal with Custom JWT & RBAC",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/db/seed.js",
+    "test": "node test-auth.js && node test-direct.js",
+    "test:auth": "node test-auth.js"
+  },
+  "keywords": [
+    "campus-placement",
+    "jwt",
+    "rbac",
+    "express",
+    "sqlite"
+  ],
+  "author": "Priyanshu",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
